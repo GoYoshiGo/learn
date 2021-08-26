@@ -12,7 +12,7 @@
 
 eureka:
   instance:
-    leaseRenewalIntervalInSeconds: 10
+    lease-renewal-interval-in-seconds: 10
     health-check-url-path: /actuator/health
   client:
     serviceUrl:
