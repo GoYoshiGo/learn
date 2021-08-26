@@ -13,8 +13,8 @@ management:
 turbine:
   app-config: blog-service,user-service
   aggregator:
-    clusterConfig: default
-  clusterNameExpression: new String("default")
-  combine-host: true
+    cluster-config: default
+  cluster-name-expression: new String("default")
+  combine-host-port: true
   instanceUrlSuffix:
     default: actuator/hystrix.stream
